@@ -1,0 +1,7 @@
+*-debug.log
+*-error.log
+/.nyc_output
+/coverage
+/coverage.lcov
+/node_modules
+/tmp
