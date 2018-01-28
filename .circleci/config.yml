@@ -48,7 +48,7 @@ jobs:
 
 workflows:
   version: 2
-  "@dxcli/example-multi-cli-javascript":
+  "@dxcli/example-multi-js":
     jobs:
       - node-latest
       - node-8
