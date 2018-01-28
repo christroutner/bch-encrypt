@@ -1,3 +1,11 @@
+<a name="0.0.13"></a>
+## [0.0.13](https://github.com/dxcli/example-multi-js/compare/b404b34ae4a8f1243f6caad0d817e3c606439fd6...v0.0.13) (2018-01-28)
+
+
+### Bug Fixes
+
+* create-dxcli 0.26.11 ([38684e2](https://github.com/dxcli/example-multi-js/commit/38684e2))
+
 <a name="0.0.12"></a>
 ## [0.0.12](https://github.com/dxcli/example-multi-js/compare/866072a87afcd6a7c029eb5e1d48e0ccc204512c...v0.0.12) (2018-01-28)
 
