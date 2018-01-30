@@ -44,6 +44,5 @@ module.exports = {
     lint: concurrent(linters),
     test,
     mocha,
-    release: 'semantic-release -e @dxcli/semantic-release',
   },
 }
