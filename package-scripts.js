@@ -26,7 +26,7 @@ if (process.env.CI) {
     linters.eslint.script = `${linters.eslint.script} --format junit --output-file reports/eslint.xml`
   }
   // add code coverage reporting with nyc
-  const nyc = 'nyc --nycrc-path node_modules/@dxcli/nyc-config/.nycrc'
+  const nyc = 'nyc --nycrc-path node_modules/@anycli/nyc-config/.nycrc'
   const nycReport = `${nyc} report --reporter text-lcov > coverage.lcov`
   mocha = series(`${nyc} ${mocha}`, nycReport)
 }
