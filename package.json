@@ -12,13 +12,15 @@
   "bugs": "https://github.com/anycli/example-multi-js/issues",
   "dependencies": {
     "@anycli/command": "^0.2.9",
-    "@anycli/config": "^0.1.41",
-    "@anycli/engine": "^0.1.26",
-    "@anycli/version": "^0.1.14",
+    "@anycli/config": "^0.2.1",
+    "@anycli/engine": "^0.1.29",
+    "@anycli/help": "^0.3.0",
+    "@anycli/not-found": "^0.1.5",
+    "@anycli/version": "^0.1.15",
     "cli-ux": "^3.3.9"
   },
   "devDependencies": {
-    "@anycli/test": "^0.9.20",
+    "@anycli/test": "^0.10.0",
     "@commitlint/cli": "^6.0.2",
     "@commitlint/config-conventional": "^6.0.2",
     "chai": "^4.1.2",
