@@ -1,3 +1,11 @@
+<a name="0.7.1"></a>
+## [0.7.1](https://github.com/anycli/example-multi-js/compare/2a6b8c42e68db0c0cf5dcc8cd637da9c41cb0922...v0.7.1) (2018-02-01)
+
+
+### Bug Fixes
+
+* anycli v0.31.1 ([1cbea60](https://github.com/anycli/example-multi-js/commit/1cbea60))
+
 <a name="0.7.0"></a>
 # [0.7.0](https://github.com/anycli/example-multi-js/compare/44c510c6ab027dda35924f0f37402e79cfa22e3c...v0.7.0) (2018-02-01)
 
