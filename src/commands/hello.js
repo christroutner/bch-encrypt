@@ -1,9 +1,10 @@
-const {Command, flags} = require('@anycli/command')
+const {Command, flags, parse} = require('@anycli/command')
 const {cli} = require('cli-ux')
 
 class HelloCommand extends Command {
   async run() {
-    const name = this.flags.name || 'world'
+    const options = parse(this.argv, HelloCommand)
+    const name = options.flags.name || 'world'
     cli.log(`hello ${name} from hello!`)
   }
 }
