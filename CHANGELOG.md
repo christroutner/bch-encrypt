@@ -1,3 +1,16 @@
+<a name="0.8.0"></a>
+# [0.8.0](https://github.com/anycli/example-multi-js/compare/1cbea60e80ba754dd1b39a0986daf1b8f320f0c6...v0.8.0) (2018-02-01)
+
+
+### Bug Fixes
+
+* anycli v0.32.1 ([632e4c7](https://github.com/anycli/example-multi-js/commit/632e4c7))
+
+
+### Features
+
+* anycli v0.32.0 ([86563a5](https://github.com/anycli/example-multi-js/commit/86563a5))
+
 <a name="0.7.1"></a>
 ## [0.7.1](https://github.com/anycli/example-multi-js/compare/2a6b8c42e68db0c0cf5dcc8cd637da9c41cb0922...v0.7.1) (2018-02-01)
 
