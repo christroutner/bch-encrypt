@@ -2,15 +2,15 @@
 # yarn lockfile v1
 
 
-"@anycli/command@^1.2.5", "@anycli/command@^1.2.7":
-  version "1.2.7"
-  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-1.2.7.tgz#52d4991183b2690591ccd06892d131105e0b79a4"
+"@anycli/command@^1.2.5", "@anycli/command@^1.2.9":
+  version "1.2.9"
+  resolved "https://registry.yarnpkg.com/@anycli/command/-/command-1.2.9.tgz#6db08fbb3537c8cc2f616415fcd6360043750f38"
   dependencies:
-    "@anycli/parser" "^3.2.4"
+    "@anycli/parser" "^3.2.5"
 
-"@anycli/config@^1.1.8", "@anycli/config@^1.2.3":
-  version "1.2.3"
-  resolved "https://registry.yarnpkg.com/@anycli/config/-/config-1.2.3.tgz#6bedf5111146c5563f74fde4fc89d74da7920c5a"
+"@anycli/config@^1.1.8", "@anycli/config@^1.3.9":
+  version "1.3.9"
+  resolved "https://registry.yarnpkg.com/@anycli/config/-/config-1.3.9.tgz#794b9f7dd6b2c8b23cfc448f8450206171a05655"
 
 "@anycli/dev-cli@^0.1.6":
   version "0.1.6"
@@ -20,9 +20,19 @@
     "@anycli/config" "^1.1.8"
     "@anycli/plugin-help" "^0.6.2"
 
-"@anycli/parser@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@anycli/parser/-/parser-3.2.4.tgz#30297ac2fa225b37efaab5c0062bf189988b3ce8"
+"@anycli/errors@^0.2.0":
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/@anycli/errors/-/errors-0.2.0.tgz#ee421115dcdb499d76de9d4853718c06e1c5d5f0"
+  dependencies:
+    clean-stack "^1.3.0"
+    fs-extra "^5.0.0"
+    indent-string "^3.2.0"
+    strip-ansi "^4.0.0"
+    wrap-ansi "^3.0.1"
+
+"@anycli/parser@^3.2.5":
+  version "3.2.5"
+  resolved "https://registry.yarnpkg.com/@anycli/parser/-/parser-3.2.5.tgz#d0e7ddb14945cb84377fa69095009ca6005e6b6d"
 
 "@anycli/plugin-help@^0.6.2", "@anycli/plugin-help@^0.6.3":
   version "0.6.3"
@@ -194,6 +204,10 @@ clean-regexp@^1.0.0:
   resolved "https://registry.yarnpkg.com/clean-regexp/-/clean-regexp-1.0.0.tgz#8df7c7aae51fd36874e8f8d05b9180bc11a3fed7"
   dependencies:
     escape-string-regexp "^1.0.5"
+
+clean-stack@^1.3.0:
+  version "1.3.0"
+  resolved "https://registry.yarnpkg.com/clean-stack/-/clean-stack-1.3.0.tgz#9e821501ae979986c46b1d66d2d432db2fd4ae31"
 
 cli-cursor@^2.1.0:
   version "2.1.0"
@@ -483,6 +497,14 @@ flat-cache@^1.2.1:
     graceful-fs "^4.1.2"
     write "^0.2.1"
 
+fs-extra@^5.0.0:
+  version "5.0.0"
+  resolved "https://registry.yarnpkg.com/fs-extra/-/fs-extra-5.0.0.tgz#414d0110cdd06705734d055652c5411260c31abd"
+  dependencies:
+    graceful-fs "^4.1.2"
+    jsonfile "^4.0.0"
+    universalify "^0.1.0"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -532,7 +554,7 @@ globby@^7.1.1:
     pify "^3.0.0"
     slash "^1.0.0"
 
-graceful-fs@^4.1.2:
+graceful-fs@^4.1.2, graceful-fs@^4.1.6:
   version "4.1.11"
   resolved "https://registry.yarnpkg.com/graceful-fs/-/graceful-fs-4.1.11.tgz#0e8bdfe4d1ddb8854d64e04ea7c00e2a026e5658"
 
@@ -658,6 +680,12 @@ json-schema-traverse@^0.3.0:
 json-stable-stringify-without-jsonify@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/json-stable-stringify-without-jsonify/-/json-stable-stringify-without-jsonify-1.0.1.tgz#9db7b59496ad3f3cfef30a75142d2d930ad72651"
+
+jsonfile@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/jsonfile/-/jsonfile-4.0.0.tgz#8771aae0799b64076b76640fca058f9c10e33ecb"
+  optionalDependencies:
+    graceful-fs "^4.1.6"
 
 levn@^0.3.0, levn@~0.3.0:
   version "0.3.0"
@@ -1047,6 +1075,10 @@ type-detect@^4.0.0:
 typedarray@^0.0.6:
   version "0.0.6"
   resolved "https://registry.yarnpkg.com/typedarray/-/typedarray-0.0.6.tgz#867ac74e3864187b1d3d47d996a78ec5c8830777"
+
+universalify@^0.1.0:
+  version "0.1.1"
+  resolved "https://registry.yarnpkg.com/universalify/-/universalify-0.1.1.tgz#fa71badd4437af4c148841e3b3b165f9e9e590b7"
 
 util-deprecate@~1.0.1:
   version "1.0.2"
