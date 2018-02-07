@@ -45,10 +45,13 @@
   "main": "src/index.js",
   "repository": "anycli/example-multi-js",
   "scripts": {
+    "clean": "rm -f .anycli.manifest.json",
     "lint": "eslint .",
-    "postpublish": "rm .anycli.manifest.json",
+    "postpublish": "yarn run clean",
     "posttest": "yarn run lint",
     "prepublishOnly": "anycli-dev manifest && anycli-dev readme",
-    "test": "mocha --forbid-only \"test/**/*.test.js\""
+    "preversion": "yarn run clean",
+    "test": "mocha --forbid-only \"test/**/*.test.js\"",
+    "version": "anycli-dev readme && git add README.md"
   }
 }
