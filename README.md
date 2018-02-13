@@ -11,3 +11,7 @@ example multi-command CLI built with javascript
 [![Known Vulnerabilities](https://snyk.io/test/npm/@oclif/example-multi-js/badge.svg)](https://snyk.io/test/npm/@oclif/example-multi-js)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-js.svg)](https://github.com/oclif/example-multi-js/blob/master/package.json)
+
+<!-- install -->
+<!-- usage -->
+<!-- commands -->
