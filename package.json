@@ -12,14 +12,14 @@
     "@oclif/config": "^1.3.47",
     "@oclif/errors": "^1.0.1",
     "@oclif/plugin-help": "^0.7.4",
-    "globby": "^7.1.1"
+    "globby": "^8.0.0"
   },
   "devDependencies": {
-    "@oclif/dev-cli": "^0.3.15",
+    "@oclif/dev-cli": "^0.3.16",
     "@oclif/test": "^0.10.16",
     "chai": "^4.1.2",
     "eslint": "^4.17.0",
-    "eslint-config-oclif": "^1.3.4",
+    "eslint-config-oclif": "^1.3.5",
     "mocha": "^5.0.0"
   },
   "engines": {
