@@ -1,5 +1,5 @@
 *-debug.log
 *-error.log
-.anycli.manifest.json
+.oclif.manifest.json
 /node_modules
 /tmp
