@@ -1,3 +1,11 @@
+<a name="0.9.20"></a>
+## [0.9.20](https://github.com/oclif/example-multi-js/compare/6d0afe587e3b62e0e79bee24676ee4a00ff205d8...v0.9.20) (2018-02-13)
+
+
+### Bug Fixes
+
+* oclif v1.0.2 ([adbf339](https://github.com/oclif/example-multi-js/commit/adbf339))
+
 <a name="0.9.19"></a>
 ## [0.9.19](https://github.com/anycli/example-multi-js/compare/af980a638aa7fe383ce82c10a2f385d911a4c61c...v0.9.19) (2018-02-07)
 
