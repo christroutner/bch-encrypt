@@ -2,24 +2,24 @@
 # yarn lockfile v1
 
 
-"@oclif/command@^1.2.20", "@oclif/command@^1.2.22":
-  version "1.2.22"
-  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.2.22.tgz#7bdda016381d45cc4d2e3b8c14fc056f96146368"
+"@oclif/command@^1.2.22", "@oclif/command@^1.2.23":
+  version "1.2.23"
+  resolved "https://registry.yarnpkg.com/@oclif/command/-/command-1.2.23.tgz#12bd96c3b4839a712f364d9aa36e463ba870d906"
   dependencies:
     "@oclif/parser" "^3.2.8"
 
-"@oclif/config@^1.3.45", "@oclif/config@^1.3.47":
-  version "1.3.47"
-  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.3.47.tgz#7e7cf7ab0634edd60bd1675260ac588e6f6521fe"
+"@oclif/config@^1.3.45", "@oclif/config@^1.3.49":
+  version "1.3.49"
+  resolved "https://registry.yarnpkg.com/@oclif/config/-/config-1.3.49.tgz#3ab3714b6ddf56c551cb0f696d241952cbca259b"
 
-"@oclif/dev-cli@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.0.0.tgz#c5db83373996050d931d31323b26e407c68397f5"
+"@oclif/dev-cli@^1.0.2":
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/@oclif/dev-cli/-/dev-cli-1.0.2.tgz#dd4dab98c28457542545289792ade373d4697efe"
   dependencies:
     "@oclif/command" "^1.2.22"
     "@oclif/config" "^1.3.45"
     "@oclif/errors" "^1.0.1"
-    "@oclif/plugin-help" "^0.7.4"
+    "@oclif/plugin-help" "^1.0.0"
     lodash.template "^4.4.0"
     normalize-package-data "^2.4.0"
     require-resolve "^0.0.2"
@@ -38,11 +38,11 @@
   version "3.2.8"
   resolved "https://registry.yarnpkg.com/@oclif/parser/-/parser-3.2.8.tgz#2b2e35b5c075d200d70950923acd64e258c5ae1d"
 
-"@oclif/plugin-help@^0.7.4":
-  version "0.7.4"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-0.7.4.tgz#1b7903ad303bc9c2816e1f8a8275da051b2361f7"
+"@oclif/plugin-help@^1.0.0", "@oclif/plugin-help@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.0.1.tgz#1421438edfade7fa6aed4ae9b4aa6a8ff2d226d3"
   dependencies:
-    "@oclif/command" "^1.2.20"
+    "@oclif/command" "^1.2.23"
     chalk "^2.3.1"
     indent-string "^3.2.0"
     lodash.template "^4.4.0"
@@ -50,21 +50,9 @@
     widest-line "^2.0.0"
     wrap-ansi "^3.0.1"
 
-"@oclif/plugin-help@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@oclif/plugin-help/-/plugin-help-1.0.0.tgz#1a343922214bf62016ae57a89b2023e2f87e545a"
-  dependencies:
-    "@oclif/command" "^1.2.20"
-    chalk "^2.3.1"
-    indent-string "^3.2.0"
-    lodash.template "^4.4.0"
-    string-width "^2.1.1"
-    widest-line "^2.0.0"
-    wrap-ansi "^3.0.1"
-
-"@oclif/test@^1.0.0":
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.0.tgz#0f6458f18f89d316fcc50abf3ef020fb77dd06e2"
+"@oclif/test@^1.0.1":
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/@oclif/test/-/test-1.0.1.tgz#042c6e47319c739b34c54bf12aaff996f4e055fe"
   dependencies:
     fancy-test "^1.0.1"
 
@@ -453,14 +441,14 @@ eslint-ast-utils@^1.0.0:
     lodash.get "^4.4.2"
     lodash.zip "^4.2.0"
 
-eslint-config-oclif@^1.3.5:
-  version "1.3.5"
-  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.3.5.tgz#6986c7125d99f29374f536eb7dac4439e0cecae0"
+eslint-config-oclif@^1.3.7:
+  version "1.3.7"
+  resolved "https://registry.yarnpkg.com/eslint-config-oclif/-/eslint-config-oclif-1.3.7.tgz#fbd09d16acdc42e554d526b372070386f7a06ecc"
   dependencies:
     eslint-config-xo-space "^0.17.0"
     eslint-plugin-mocha "^4.11.0"
-    eslint-plugin-node "^5.2.1"
-    eslint-plugin-unicorn "^3.0.1"
+    eslint-plugin-node "^6.0.0"
+    eslint-plugin-unicorn "^4.0.1"
 
 eslint-config-xo-space@^0.17.0:
   version "0.17.0"
@@ -478,18 +466,18 @@ eslint-plugin-mocha@^4.11.0:
   dependencies:
     ramda "^0.24.1"
 
-eslint-plugin-node@^5.2.1:
-  version "5.2.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-5.2.1.tgz#80df3253c4d7901045ec87fa660a284e32bdca29"
+eslint-plugin-node@^6.0.0:
+  version "6.0.0"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-node/-/eslint-plugin-node-6.0.0.tgz#5ad5ee6b5346aec6cc9cde0b8619caed2c6d8f25"
   dependencies:
     ignore "^3.3.6"
     minimatch "^3.0.4"
     resolve "^1.3.3"
-    semver "5.3.0"
+    semver "^5.4.1"
 
-eslint-plugin-unicorn@^3.0.1:
-  version "3.0.1"
-  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-3.0.1.tgz#dae02614a53b921541a9318a46e50ab5bdeb5d7c"
+eslint-plugin-unicorn@^4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/eslint-plugin-unicorn/-/eslint-plugin-unicorn-4.0.1.tgz#5a2481978c80ecf9383b7f90100595ebb2f6f8f7"
   dependencies:
     clean-regexp "^1.0.0"
     eslint-ast-utils "^1.0.0"
@@ -498,6 +486,7 @@ eslint-plugin-unicorn@^3.0.1:
     lodash.kebabcase "^4.0.1"
     lodash.snakecase "^4.0.1"
     lodash.upperfirst "^4.2.0"
+    safe-regex "^1.1.0"
 
 eslint-scope@^3.7.1:
   version "3.7.1"
@@ -1432,6 +1421,10 @@ restore-cursor@^2.0.0:
     onetime "^2.0.0"
     signal-exit "^3.0.2"
 
+ret@~0.1.10:
+  version "0.1.15"
+  resolved "https://registry.yarnpkg.com/ret/-/ret-0.1.15.tgz#b8a4825d5bdb1fc3f6f53c2bc33f81388681c7bc"
+
 rimraf@^2.2.8:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
@@ -1458,13 +1451,15 @@ safe-buffer@~5.1.0, safe-buffer@~5.1.1:
   version "5.1.1"
   resolved "https://registry.yarnpkg.com/safe-buffer/-/safe-buffer-5.1.1.tgz#893312af69b2123def71f57889001671eeb2c853"
 
-"semver@2 || 3 || 4 || 5", semver@^5.3.0:
+safe-regex@^1.1.0:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/safe-regex/-/safe-regex-1.1.0.tgz#40a3669f3b077d1e943d44629e157dd48023bf2e"
+  dependencies:
+    ret "~0.1.10"
+
+"semver@2 || 3 || 4 || 5", semver@^5.3.0, semver@^5.4.1:
   version "5.5.0"
   resolved "https://registry.yarnpkg.com/semver/-/semver-5.5.0.tgz#dc4bbc7a6ca9d916dee5d43516f0092b58f7b8ab"
-
-semver@5.3.0:
-  version "5.3.0"
-  resolved "https://registry.yarnpkg.com/semver/-/semver-5.3.0.tgz#9b2ce5d3de02d17c6012ad326aa6b4d0cf54f94f"
 
 set-getter@^0.1.0:
   version "0.1.0"
