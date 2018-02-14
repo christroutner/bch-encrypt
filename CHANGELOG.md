@@ -1,3 +1,11 @@
+<a name="1.1.2"></a>
+## [1.1.2](https://github.com/oclif/example-multi-js/compare/e6512435d56e0ba38d6424d4a4add8557c29f7ad...v1.1.2) (2018-02-14)
+
+
+### Bug Fixes
+
+* oclif v1.1.2 ([e2c34ee](https://github.com/oclif/example-multi-js/commit/e2c34ee))
+
 <a name="1.1.1"></a>
 ## [1.1.1](https://github.com/oclif/example-multi-js/compare/04931ed93062dee5288051cdc9b6446616ea0f0e...v1.1.1) (2018-02-14)
 
