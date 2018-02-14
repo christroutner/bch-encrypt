@@ -13,5 +13,63 @@ example multi-command CLI built with javascript
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-js.svg)](https://github.com/oclif/example-multi-js/blob/master/package.json)
 
 <!-- install -->
+# Installing @oclif/example-multi-js
+
+with yarn:
+```
+$ yarn global add @oclif/example-multi-js
+```
+
+or with npm:
+```
+$ npm install -g @oclif/example-multi-js
+```
+<!-- installstop -->
 <!-- usage -->
+# Usage
+
+```sh-session
+$ example-multi-js COMMAND
+running command...
+$ example-multi-js (-v|--version|version)
+@oclif/example-multi-js/1.1.0 (linux-x64) node-v9.5.0
+$ example-multi-js --help [COMMAND]
+USAGE
+  $ example-multi-js COMMAND [OPTIONS]
+...
+```
+<!-- usagestop -->
 <!-- commands -->
+# Commands
+
+* [example-multi-js hello [OPTIONS]](#hello)
+* [example-multi-js help [COMMAND] [OPTIONS]](#help)
+## hello [OPTIONS]
+
+```
+USAGE
+  $ example-multi-js hello [OPTIONS]
+
+OPTIONS
+  -n, --name=name  name to print
+```
+
+_See code: [@oclif/example-multi-js](https://github.com/oclif/example-multi-js/blob/v1.1.0/src/commands/hello.js)_
+
+## help [COMMAND] [OPTIONS]
+
+display help for example-multi-js
+
+```
+USAGE
+  $ example-multi-js help [COMMAND] [OPTIONS]
+
+ARGUMENTS
+  COMMAND  command to show help for
+
+OPTIONS
+  --all  see all commands in CLI
+```
+
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v1.0.1/src/commands/help.ts)_
+<!-- commandsstop -->
