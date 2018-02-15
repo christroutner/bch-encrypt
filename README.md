@@ -4,7 +4,7 @@
 example multi-command CLI built with javascript
 
 [![Version](https://img.shields.io/npm/v/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
-[![CircleCI](https://circleci.com/gh/oclif/example-multi-js/tree/master.svg?style=svg)](https://circleci.com/gh/oclif/example-multi-js/tree/master)
+[![CircleCI](https://circleci.com/gh/oclif/example-multi-js/tree/master.svg?style=shield)](https://circleci.com/gh/oclif/example-multi-js/tree/master)
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/example-multi-js?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/example-multi-js/branch/master)
 [![Codecov](https://codecov.io/gh/oclif/example-multi-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/example-multi-js)
 [![Greenkeeper](https://badges.greenkeeper.io/oclif/example-multi-js.svg)](https://greenkeeper.io/)
@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.2.14 (linux-x64) node-v9.5.0
+@oclif/example-multi-js/1.3.0 (linux-x64) node-v9.5.0
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
