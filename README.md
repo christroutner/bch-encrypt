@@ -8,7 +8,7 @@ example multi-command CLI built with javascript
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/example-multi-js?branch=master&svg=true)](https://ci.appveyor.com/project/heroku/example-multi-js/branch/master)
 [![Codecov](https://codecov.io/gh/oclif/example-multi-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/example-multi-js)
 [![Greenkeeper](https://badges.greenkeeper.io/oclif/example-multi-js.svg)](https://greenkeeper.io/)
-[![Known Vulnerabilities](https://snyk.io/test/npm/@oclif/example-multi-js/badge.svg)](https://snyk.io/test/npm/@oclif/example-multi-js)
+[![Known Vulnerabilities](https://snyk.io/test/github/oclif/example-multi-js/badge.svg)](https://snyk.io/test/github/oclif/example-multi-js)
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-js.svg)](https://github.com/oclif/example-multi-js/blob/master/package.json)
 
@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.2.6 (linux-x64) node-v9.5.0
+@oclif/example-multi-js/1.2.7 (linux-x64) node-v9.5.0
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
@@ -66,7 +66,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.2.6/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.2.7/src/commands/hello.js)_
 
 ## help [COMMAND] [OPTIONS]
 
