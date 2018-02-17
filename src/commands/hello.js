@@ -4,7 +4,7 @@ class HelloCommand extends Command {
   async run() {
     const {flags} = this.parse(HelloCommand)
     const name = flags.name || 'world'
-    this.log(`hello ${name} from ./src/hello.js!`)
+    this.log(`hello ${name} from ${__filename}!`)
   }
 }
 
