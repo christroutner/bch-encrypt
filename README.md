@@ -37,7 +37,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.3.7 (linux-x64) node-v9.6.1
+@oclif/example-multi-js/1.3.8 (linux-x64) node-v9.7.1
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
@@ -83,5 +83,5 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v1.1.5/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v1.1.6/src/commands/help.ts)_
 <!-- commandsstop -->
