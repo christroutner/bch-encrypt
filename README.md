@@ -66,7 +66,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.4.0/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.4.1/src/commands/hello.js)_
 
 ## help [COMMAND]
 
