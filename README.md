@@ -13,31 +13,18 @@ example multi-command CLI built with javascript
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-js.svg)](https://github.com/oclif/example-multi-js/blob/master/package.json)
 
 <!-- toc -->
-* [Install](#install)
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
-<!-- install -->
-# Install
-
-with yarn:
-```
-$ yarn global add @oclif/example-multi-js
-```
-
-or with npm:
-```
-$ npm install -g @oclif/example-multi-js
-```
-<!-- installstop -->
 <!-- usage -->
 # Usage
 
 ```sh-session
+$ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.4.0 (linux-x64) node-v9.8.0
+@oclif/example-multi-js/1.4.1 linux-x64 node-v9.8.0
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
