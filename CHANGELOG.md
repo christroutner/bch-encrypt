@@ -1,3 +1,11 @@
+<a name="1.4.7"></a>
+## [1.4.7](https://github.com/oclif/example-multi-js/compare/72b569c1e55d9f537db48d22c9158b1f9829d445...v1.4.7) (2018-03-22)
+
+
+### Bug Fixes
+
+* oclif v1.4.10 ([be1ade8](https://github.com/oclif/example-multi-js/commit/be1ade8))
+
 <a name="1.4.6"></a>
 ## [1.4.6](https://github.com/oclif/example-multi-js/compare/249c0e55c6c4165dac20be91a286bea725267cbb...v1.4.6) (2018-03-22)
 
