@@ -16,9 +16,8 @@ example multi-command CLI built with javascript
 * [Usage](#usage)
 * [Commands](#commands)
 <!-- tocstop -->
-<!-- usage -->
 # Usage
-
+<!-- usage -->
 ```sh-session
 $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
@@ -31,9 +30,8 @@ USAGE
 ...
 ```
 <!-- usagestop -->
-<!-- commands -->
 # Commands
-
+<!-- commands -->
 * [example-multi-js hello](#hello)
 * [example-multi-js help [COMMAND]](#help-command)
 ## hello
