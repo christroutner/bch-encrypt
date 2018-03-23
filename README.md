@@ -34,7 +34,7 @@ USAGE
 <!-- commands -->
 * [example-multi-js hello](#hello)
 * [example-multi-js help [COMMAND]](#help-command)
-## hello
+## example-multi-js hello
 
 Describe the command here
 
@@ -53,7 +53,7 @@ DESCRIPTION
 
 _See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.5.1/src/commands/hello.js)_
 
-## help [COMMAND]
+## example-multi-js help [COMMAND]
 
 display help for example-multi-js
 
