@@ -1,3 +1,11 @@
+<a name="1.5.5"></a>
+## [1.5.5](https://github.com/oclif/example-multi-js/compare/3398b413cf64ac9c5447bf207c7343cb7a368d8f...v1.5.5) (2018-03-24)
+
+
+### Bug Fixes
+
+* oclif v1.5.5 ([df2caab](https://github.com/oclif/example-multi-js/commit/df2caab))
+
 <a name="1.5.4"></a>
 ## [1.5.4](https://github.com/oclif/example-multi-js/compare/1d7392f38fa906415f03c84ab95f052472513419...v1.5.4) (2018-03-24)
 
