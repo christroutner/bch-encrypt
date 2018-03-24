@@ -32,8 +32,9 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [example-multi-js hello](#hello)
-* [example-multi-js help [COMMAND]](#help-command)
+* [example-multi-js hello](#example-multi-js-hello)
+* [example-multi-js help [COMMAND]](#example-multi-js-help-command)
+
 ## example-multi-js hello
 
 Describe the command here
@@ -68,5 +69,5 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v1.1.6/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v1.1.7/src/commands/help.ts)_
 <!-- commandsstop -->
