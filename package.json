@@ -46,10 +46,10 @@
   "scripts": {
     "clean": "rm -f .oclif.manifest.json",
     "lint": "eslint .",
-    "postpublish": "npm run clean",
-    "posttest": "npm run lint",
+    "postpublish": "yarn run clean",
+    "posttest": "yarn run lint",
     "prepublishOnly": "oclif-dev manifest && oclif-dev readme",
-    "preversion": "npm run clean",
+    "preversion": "yarn run clean",
     "test": "mocha --forbid-only \"test/**/*.test.js\"",
     "version": "oclif-dev readme && git add README.md"
   }
