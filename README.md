@@ -21,7 +21,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.7.14 linux-x64 node-v9.11.1
+@oclif/example-multi-js/1.7.15 linux-x64 node-v9.11.1
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
@@ -50,7 +50,7 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.7.14/src/commands/hello.js)_
+_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.7.15/src/commands/hello.js)_
 
 ## example-multi-js help [COMMAND]
 
