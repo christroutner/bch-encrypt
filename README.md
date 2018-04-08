@@ -21,7 +21,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.7.16 linux-x64 node-v9.10.1
+@oclif/example-multi-js/1.7.16 linux-x64 node-v9.11.1
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
