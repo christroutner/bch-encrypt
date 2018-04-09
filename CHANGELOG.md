@@ -1,3 +1,11 @@
+<a name="1.7.22"></a>
+## [1.7.22](https://github.com/oclif/example-multi-js/compare/v1.7.21...v1.7.22) (2018-04-09)
+
+
+### Bug Fixes
+
+* oclif v1.7.25 ([f5417e9](https://github.com/oclif/example-multi-js/commit/f5417e9))
+
 <a name="1.7.21"></a>
 ## [1.7.21](https://github.com/oclif/example-multi-js/compare/v1.7.20...v1.7.21) (2018-04-08)
 
