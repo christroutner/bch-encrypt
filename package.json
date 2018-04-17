@@ -1,7 +1,7 @@
 {
   "name": "@oclif/example-multi-js",
   "description": "example multi-command CLI built with javascript",
-  "version": "1.7.27",
+  "version": "1.7.28",
   "author": "Jeff Dickey @jdxcode",
   "bin": {
     "example-multi-js": "./bin/run"
