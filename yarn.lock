@@ -483,8 +483,8 @@ cli-cursor@^2.1.0:
     restore-cursor "^2.0.0"
 
 cli-ux@^4.2.0:
-  version "4.2.0"
-  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.2.0.tgz#b25bb5a646cad9bb99494e189c9cf052d0732065"
+  version "4.2.1"
+  resolved "https://registry.yarnpkg.com/cli-ux/-/cli-ux-4.2.1.tgz#d6a14ce85cdacd136e6cafc73674ca84f4557cda"
   dependencies:
     "@oclif/linewrap" "^1.0.0"
     "@oclif/screen" "^1.0.2"
