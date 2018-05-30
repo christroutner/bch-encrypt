@@ -8,8 +8,7 @@ class GoodbyeCommand extends Command {
   }
 }
 
-GoodbyeCommand.description = `
-Describe the command here
+GoodbyeCommand.description = `Describe the command here
 ...
 Extra documentation goes here
 `
