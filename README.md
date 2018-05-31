@@ -21,7 +21,7 @@ $ npm install -g @oclif/example-multi-js
 $ example-multi-js COMMAND
 running command...
 $ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.7.47 linux-x64 node-v10.2.1
+@oclif/example-multi-js/1.7.47 linux-x64 node-v10.3.0
 $ example-multi-js --help [COMMAND]
 USAGE
   $ example-multi-js COMMAND
@@ -30,27 +30,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`example-multi-js goodbye`](#example-multi-js-goodbye)
 * [`example-multi-js hello`](#example-multi-js-hello)
 * [`example-multi-js help [COMMAND]`](#example-multi-js-help-command)
-
-## `example-multi-js goodbye`
-
-Describe the command here
-
-```
-USAGE
-  $ example-multi-js goodbye
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/goodbye.js](https://github.com/oclif/example-multi-js/blob/v1.7.47/src/commands/goodbye.js)_
 
 ## `example-multi-js hello`
 
@@ -85,5 +66,5 @@ OPTIONS
   --all  see all commands in CLI
 ```
 
-_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v1.2.11/src/commands/help.ts)_
+_See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.0.4/src/commands/help.ts)_
 <!-- commandsstop -->
