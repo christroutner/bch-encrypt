@@ -30,27 +30,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`example-multi-js goodbye`](#example-multi-js-goodbye)
 * [`example-multi-js hello`](#example-multi-js-hello)
 * [`example-multi-js help [COMMAND]`](#example-multi-js-help-command)
-
-## `example-multi-js goodbye`
-
-Describe the command here
-
-```
-USAGE
-  $ example-multi-js goodbye
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/goodbye.js](https://github.com/oclif/example-multi-js/blob/v1.7.50/src/commands/goodbye.js)_
 
 ## `example-multi-js hello`
 
