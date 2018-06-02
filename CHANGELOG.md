@@ -1,3 +1,11 @@
+<a name="1.8.0"></a>
+# [1.8.0](https://github.com/oclif/example-multi-js/compare/v1.7.51...v1.8.0) (2018-06-02)
+
+
+### Features
+
+* oclif v1.8.0 ([842e6c0](https://github.com/oclif/example-multi-js/commit/842e6c0))
+
 <a name="1.7.51"></a>
 ## [1.7.51](https://github.com/oclif/example-multi-js/compare/v1.7.50...v1.7.51) (2018-06-01)
 
