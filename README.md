@@ -5,15 +5,9 @@ example multi-command CLI built with javascript
 
 [![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
 [![Version](https://img.shields.io/npm/v/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
-
 [![CircleCI](https://circleci.com/gh/oclif/example-multi-js/tree/master.svg?style=shield)](https://circleci.com/gh/oclif/example-multi-js/tree/master)
-
-
 [![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/example-multi-js?branch=master&svg=true)](https://ci.appveyor.com/project/oclif/example-multi-js/branch/master)
-
-
 [![Codecov](https://codecov.io/gh/oclif/example-multi-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/example-multi-js)
-
 [![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
 [![License](https://img.shields.io/npm/l/@oclif/example-multi-js.svg)](https://github.com/oclif/example-multi-js/blob/master/package.json)
 
@@ -37,27 +31,8 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`example-multi-js goodbye`](#example-multi-js-goodbye)
 * [`example-multi-js hello`](#example-multi-js-hello)
 * [`example-multi-js help [COMMAND]`](#example-multi-js-help-command)
-
-## `example-multi-js goodbye`
-
-Describe the command here
-
-```
-USAGE
-  $ example-multi-js goodbye
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/goodbye.js](https://github.com/oclif/example-multi-js/blob/v1.9.0/src/commands/goodbye.js)_
 
 ## `example-multi-js hello`
 
