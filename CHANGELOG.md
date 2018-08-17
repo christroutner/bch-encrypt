@@ -1,3 +1,10 @@
+## [1.9.2](https://github.com/oclif/example-multi-js/compare/v1.9.1...v1.9.2) (2018-08-17)
+
+
+### Bug Fixes
+
+* oclif v1.10.3 ([4a11521](https://github.com/oclif/example-multi-js/commit/4a11521))
+
 ## [1.9.1](https://github.com/oclif/example-multi-js/compare/v1.9.0...v1.9.1) (2018-08-17)
 
 
