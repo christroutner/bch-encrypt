@@ -12,7 +12,7 @@ sudo: required
 #services:
 #  - docker
 
-before_install:
+#before_install:
   #- ./install-mongo
   #- npm install -g mocha
 
