@@ -100,6 +100,13 @@ class SendMessage extends Command {
       }
       const transactions = await _this.generateTransactions(txObj)
       console.log(`transactions: ${JSON.stringify(transactions, null, 2)}`)
+
+      const lastTxid = transactions[transactions.length - 1]
+      console.log(
+        `https://member.cash/index.html#thread?root=${transactions[0]}&post=${lastTxid}`
+      )
+
+      return true
     } catch (err) {
       _this.log('Error in send/sendMsg()')
       throw err
@@ -133,13 +140,9 @@ class SendMessage extends Command {
       console.log(' ')
 
       const txids = await _this.sendChunks({ txidTitle, msgChunks, wif, addr })
-      console.log(`txids: ${JSON.stringify(txids, null, 2)}`)
+      // console.log(`txids: ${JSON.stringify(txids, null, 2)}`)
 
-      const lastTxid = txids[txids.length - 1]
-
-      console.log(
-        `https://member.cash/index.html#thread?root=${txidTitle}&post=${lastTxid}`
-      )
+      // const lastTxid = txids[txids.length - 1]
 
       return [txidTitle].concat(txids)
     } catch (err) {
@@ -225,14 +228,14 @@ class SendMessage extends Command {
         const tx = transactionBuilder.build()
         // output rawhex
         const hex = tx.toHex()
-        console.log(`TX hex: ${hex}`)
-        console.log(' ')
+        // console.log(`TX hex: ${hex}`)
+        // console.log(' ')
 
         // Broadcast transation to the network
         lastTxid = await _this.broadcast(hex)
-        console.log(`Transaction ID: ${lastTxid}`)
-        console.log(`https://memo.cash/post/${lastTxid}`)
-        console.log(`https://explorer.bitcoin.com/bch/tx/${lastTxid}`)
+        // console.log(`Transaction ID: ${lastTxid}`)
+        // console.log(`https://memo.cash/post/${lastTxid}`)
+        // console.log(`https://explorer.bitcoin.com/bch/tx/${lastTxid}`)
 
         txids.push(lastTxid)
       }
@@ -267,7 +270,6 @@ class SendMessage extends Command {
   // represents a byte.
   chunkMsg (msg) {
     try {
-      // const MAX_BYTE_SIZE = 184
       const MAX_BYTE_SIZE = 92
       const CHAR_PER_BYTE = 2
 
@@ -374,9 +376,9 @@ class SendMessage extends Command {
     try {
       // Broadcast transation to the network
       const txidStr = await _this.bchjs.RawTransactions.sendRawTransaction(hex)
-      console.log(`Transaction ID: ${txidStr}`)
-      console.log(`https://memo.cash/post/${txidStr}`)
-      console.log(`https://explorer.bitcoin.com/bch/tx/${txidStr}`)
+      // console.log(`Transaction ID: ${txidStr}`)
+      // console.log(`https://memo.cash/post/${txidStr}`)
+      // console.log(`https://explorer.bitcoin.com/bch/tx/${txidStr}`)
 
       return txidStr
     } catch (err) {
@@ -399,7 +401,7 @@ class SendMessage extends Command {
       }
     }
 
-    console.log(`Largest UTXO: ${JSON.stringify(utxos[largestIndex], null, 2)}`)
+    // console.log(`Largest UTXO: ${JSON.stringify(utxos[largestIndex], null, 2)}`)
 
     return utxos[largestIndex]
   }
