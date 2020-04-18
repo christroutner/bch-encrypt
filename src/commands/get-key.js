@@ -1,3 +1,7 @@
+/*
+./bin/run get-key -n bitcoincash:qzpsvahr07t73l679cytvmu9vtm7frf8qcfvdmlq9l
+*/
+
 const { Command, flags } = require('@oclif/command')
 
 const BCHJS = require('@chris.troutner/bch-js')
