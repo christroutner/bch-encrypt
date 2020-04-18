@@ -99,7 +99,7 @@ class GetKey extends Command {
 
 GetKey.description = `Get the public key for a BCH address.
 ...
-Analyizes transactions on the blockchain to try and retrieve a public key for
+Analyzes transactions on the blockchain to try and retrieve a public key for
 a BCH address. This will not work if the address does not have any transactions.
 `
 
