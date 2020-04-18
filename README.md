@@ -29,8 +29,29 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
+* [`bch-encrypt decrypt`](#bch-encrypt-decrypt)
 * [`bch-encrypt get-key`](#bch-encrypt-get-key)
 * [`bch-encrypt help [COMMAND]`](#bch-encrypt-help-command)
+* [`bch-encrypt send`](#bch-encrypt-send)
+
+## `bch-encrypt decrypt`
+
+Decrypt a a message with the WIF private key.
+
+```
+USAGE
+  $ bch-encrypt decrypt
+
+OPTIONS
+  -m, --msg=msg  Encrypted message
+  -w, --wif=wif  Base58 WIF private key to decrypt message
+
+DESCRIPTION
+  ...
+  Decrypts an encrypted message, using the private key in the WIF.
+```
+
+_See code: [src/commands/decrypt.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/decrypt.js)_
 
 ## `bch-encrypt get-key`
 
@@ -45,7 +66,7 @@ OPTIONS
 
 DESCRIPTION
   ...
-  Analyizes transactions on the blockchain to try and retrieve a public key for
+  Analyzes transactions on the blockchain to try and retrieve a public key for
   a BCH address. This will not work if the address does not have any transactions.
 ```
 
@@ -67,4 +88,27 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v2.2.3/src/commands/help.ts)_
+
+## `bch-encrypt send`
+
+Send an encrypted message to a BCH address.
+
+```
+USAGE
+  $ bch-encrypt send
+
+OPTIONS
+  -a, --addr=addr  BCH cash address of the recipient
+  -m, --msg=msg    Message to encrypt
+  -w, --wif=wif    Base58 WIF private key to pay for transaction
+
+DESCRIPTION
+  ...
+  Encrypts a message with the recipients BCH address and publishes the encrypted
+  message to the blockchain by sending transactions to the recipients address.
+  The message will be broken up into multiple transactions that will need
+  to be parsed together using the memo.cash and member.cash protocols.
+```
+
+_See code: [src/commands/send.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/send.js)_
 <!-- commandsstop -->
