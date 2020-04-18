@@ -28,7 +28,7 @@ class SendMessage extends Command {
 
       _this.log('Message encrypted and sent successfully.')
     } catch (err) {
-      console.error('Error in get-key: ', err.message)
+      console.error('Error in send: ', err.message)
     }
   }
 
