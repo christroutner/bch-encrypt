@@ -1,7 +1,7 @@
 {
-  "name": "@chris.trouter/bch-encrypt",
+  "name": "@chris.troutner/bch-encrypt",
   "description": "Multi-command CLI for working with ecrypted messages on BCH",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "Chris Troutner <chris.troutner@gmail.com>",
   "contributors": [
     "Jeff Dickey @jdxcode",
