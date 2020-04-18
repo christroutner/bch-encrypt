@@ -1,7 +1,7 @@
 /*
 Encrypt a message and write it to the blockchain.
 
-./bin/run send -a bitcoincash:qzpsvahr07t73l679cytvmu9vtm7frf8qcfvdmlq9l -w KwrE4dKiuDiSLdWcpXfGE8CnE3nkC6ZpWYCx1S1rXgFPzaZAL -m test
+./bin/run send -a bitcoincash:qzpsvahr07t73l679cytvmu9vtm7frf8qcfvdmlq9l -w KwrE4dKiuDiSLdWcpXfGE8CnE3nkC6ZpWYCx1S1rXgFPzaZALgcE -m "This is a test"
 */
 
 const { Command, flags } = require('@oclif/command')
@@ -372,7 +372,7 @@ class SendMessage extends Command {
 
       return hex
     } catch (err) {
-      console.error('Error in sendFirstTx()')
+      console.error('Error in sendTitleTx(): ', err)
       throw err
     }
   }
