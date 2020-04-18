@@ -1,3 +1,9 @@
+/*
+Encrypt a message and write it to the blockchain.
+
+./bin/run send -a bitcoincash:qzpsvahr07t73l679cytvmu9vtm7frf8qcfvdmlq9l -w KwrE4dKiuDiSLdWcpXfGE8CnE3nkC6ZpWYCx1S1rXgFPzaZAL -m test
+*/
+
 const { Command, flags } = require('@oclif/command')
 
 const eccryptoJS = require('eccrypto-js')

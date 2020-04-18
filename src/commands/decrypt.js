@@ -1,3 +1,9 @@
+/*
+Decrypt an encrypted message posted to member.cash
+
+./bin/run decrypt -w KwrE4dKiuDiSLdWcpXfGE8CnE3nkC6ZpWYCx1S1rXgFPzaZALgcE -m 04b61728af3731dbda8319d270009aed8fb48eadfbbab383a4a5f8a50dd18dd1af97bdeb31ae2b92032b9df1e0af44d87b921ee50753fbee2a2ef29323fb12181c0496514f3e5e0a20fb387fc735caeac30f8a153615d448953ec6157582b2fc778b88ef2ec64e2f7c1f9419053212d86bc9fb5d5f87268c6edeb8373825d20a84
+*/
+
 const { Command, flags } = require('@oclif/command')
 
 const eccryptoJS = require('eccrypto-js')
