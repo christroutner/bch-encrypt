@@ -18,30 +18,31 @@ example multi-command CLI built with javascript
 # Usage
 <!-- usage -->
 ```sh-session
-$ npm install -g @oclif/example-multi-js
-$ example-multi-js COMMAND
+$ npm install -g @chris.troutner/bch-encrypt
+$ bch-encrypt COMMAND
 running command...
-$ example-multi-js (-v|--version|version)
-@oclif/example-multi-js/1.10.6 linux-x64 node-v13.3.0
-$ example-multi-js --help [COMMAND]
+$ bch-encrypt (-v|--version|version)
+@chris.troutner/bch-encrypt/1.0.1 linux-x64 node-v12.16.1
+$ bch-encrypt --help [COMMAND]
 USAGE
-  $ example-multi-js COMMAND
+  $ bch-encrypt COMMAND
 ...
 ```
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`example-multi-js goodbye`](#example-multi-js-goodbye)
-* [`example-multi-js hello`](#example-multi-js-hello)
-* [`example-multi-js help [COMMAND]`](#example-multi-js-help-command)
+* [`bch-encrypt get-key`](#bch-encrypt-get-key)
+* [`bch-encrypt goodbye`](#bch-encrypt-goodbye)
+* [`bch-encrypt hello`](#bch-encrypt-hello)
+* [`bch-encrypt help [COMMAND]`](#bch-encrypt-help-command)
 
-## `example-multi-js goodbye`
+## `bch-encrypt get-key`
 
 Describe the command here
 
 ```
 USAGE
-  $ example-multi-js goodbye
+  $ bch-encrypt get-key
 
 OPTIONS
   -n, --name=name  name to print
@@ -51,15 +52,15 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/goodbye.js](https://github.com/oclif/example-multi-js/blob/v1.10.6/src/commands/goodbye.js)_
+_See code: [src/commands/get-key.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/get-key.js)_
 
-## `example-multi-js hello`
+## `bch-encrypt goodbye`
 
 Describe the command here
 
 ```
 USAGE
-  $ example-multi-js hello
+  $ bch-encrypt goodbye
 
 OPTIONS
   -n, --name=name  name to print
@@ -69,15 +70,33 @@ DESCRIPTION
   Extra documentation goes here
 ```
 
-_See code: [src/commands/hello.js](https://github.com/oclif/example-multi-js/blob/v1.10.6/src/commands/hello.js)_
+_See code: [src/commands/goodbye.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/goodbye.js)_
 
-## `example-multi-js help [COMMAND]`
+## `bch-encrypt hello`
 
-display help for example-multi-js
+Describe the command here
 
 ```
 USAGE
-  $ example-multi-js help [COMMAND]
+  $ bch-encrypt hello
+
+OPTIONS
+  -n, --name=name  name to print
+
+DESCRIPTION
+  ...
+  Extra documentation goes here
+```
+
+_See code: [src/commands/hello.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/hello.js)_
+
+## `bch-encrypt help [COMMAND]`
+
+display help for bch-encrypt
+
+```
+USAGE
+  $ bch-encrypt help [COMMAND]
 
 ARGUMENTS
   COMMAND  command to show help for
