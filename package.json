@@ -20,6 +20,7 @@
     "@oclif/dev-cli": "^1",
     "@oclif/test": "^1",
     "chai": "^4",
+    "coveralls": "^3.0.11",
     "eslint": "^5.13",
     "eslint-config-oclif": "^3.1",
     "globby": "^10",
@@ -52,13 +53,18 @@
       "@oclif/plugin-help"
     ]
   },
-  "repository": "christroutner/bch-encrypt",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/christroutner/bch-encrypt.git"
+  },
   "scripts": {
     "postpack": "rm -f oclif.manifest.json",
     "pretest": "standard --env mocha --fix",
     "prepack": "oclif-dev manifest && oclif-dev readme",
     "test": "nyc mocha --forbid-only \"test/**/*.test.js\"",
     "version": "oclif-dev readme && git add README.md",
-    "lint": "standard --env mocha --fix"
+    "lint": "standard --env mocha --fix",
+    "coverage": "nyc report --reporter=text-lcov | coveralls",
+    "coverage:report": "export NETWORK=mainnet && nyc --reporter=html mocha --timeout 25000 test/v3/"
   }
 }
