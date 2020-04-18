@@ -15,7 +15,8 @@
     "@chris.troutner/bch-js": "^2.3.12",
     "@oclif/command": "^1",
     "@oclif/config": "^1",
-    "@oclif/plugin-help": "^2"
+    "@oclif/plugin-help": "^2",
+    "eccrypto-js": "^4.5.3"
   },
   "devDependencies": {
     "@oclif/dev-cli": "^1",

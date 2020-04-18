@@ -26,7 +26,7 @@ describe('#send', () => {
 
     it('should report when a message can not be sent', async () => {
       sandbox.stub(uut, 'parse').returns({})
-      // sandbox.stub(uut, 'sendMsg').resolves(false)
+      sandbox.stub(uut, 'sendMsg').resolves(false)
 
       await uut.run()
     })
