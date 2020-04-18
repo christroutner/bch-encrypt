@@ -1,3 +1,7 @@
+/*
+./bin/run get-key -n bitcoincash:qzpsvahr07t73l679cytvmu9vtm7frf8qcfvdmlq9l
+*/
+
 const { Command, flags } = require('@oclif/command')
 
 const BCHJS = require('@chris.troutner/bch-js')
@@ -99,7 +103,7 @@ class GetKey extends Command {
 
 GetKey.description = `Get the public key for a BCH address.
 ...
-Analyizes transactions on the blockchain to try and retrieve a public key for
+Analyzes transactions on the blockchain to try and retrieve a public key for
 a BCH address. This will not work if the address does not have any transactions.
 `
 

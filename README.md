@@ -1,15 +1,13 @@
-@oclif/example-multi-js
+@chris.troutner/bch-encrypt
 =======================
 
-example multi-command CLI built with javascript
+Command Line Interface (CLI) for encrypting, decrypting, and sending messages
+over the BCH blockchain.
 
-[![oclif](https://img.shields.io/badge/cli-oclif-brightgreen.svg)](https://oclif.io)
-[![Version](https://img.shields.io/npm/v/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
-[![CircleCI](https://circleci.com/gh/oclif/example-multi-js/tree/master.svg?style=shield)](https://circleci.com/gh/oclif/example-multi-js/tree/master)
-[![Appveyor CI](https://ci.appveyor.com/api/projects/status/github/oclif/example-multi-js?branch=master&svg=true)](https://ci.appveyor.com/project/oclif/example-multi-js/branch/master)
-[![Codecov](https://codecov.io/gh/oclif/example-multi-js/branch/master/graph/badge.svg)](https://codecov.io/gh/oclif/example-multi-js)
-[![Downloads/week](https://img.shields.io/npm/dw/@oclif/example-multi-js.svg)](https://npmjs.org/package/@oclif/example-multi-js)
-[![License](https://img.shields.io/npm/l/@oclif/example-multi-js.svg)](https://github.com/oclif/example-multi-js/blob/master/package.json)
+## Installation:
+- `git clone https://github.com/christroutner/bch-encrypt && cd bch-encrypt`
+- `npm install`
+- `./bin/run help`
 
 <!-- toc -->
 * [Usage](#usage)
@@ -32,63 +30,26 @@ USAGE
 # Commands
 <!-- commands -->
 * [`bch-encrypt get-key`](#bch-encrypt-get-key)
-* [`bch-encrypt goodbye`](#bch-encrypt-goodbye)
-* [`bch-encrypt hello`](#bch-encrypt-hello)
 * [`bch-encrypt help [COMMAND]`](#bch-encrypt-help-command)
 
 ## `bch-encrypt get-key`
 
-Describe the command here
+Get the public key for a BCH address.
 
 ```
 USAGE
   $ bch-encrypt get-key
 
 OPTIONS
-  -n, --name=name  name to print
+  -n, --name=name  BCH cash address
 
 DESCRIPTION
   ...
-  Extra documentation goes here
+  Analyizes transactions on the blockchain to try and retrieve a public key for
+  a BCH address. This will not work if the address does not have any transactions.
 ```
 
 _See code: [src/commands/get-key.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/get-key.js)_
-
-## `bch-encrypt goodbye`
-
-Describe the command here
-
-```
-USAGE
-  $ bch-encrypt goodbye
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/goodbye.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/goodbye.js)_
-
-## `bch-encrypt hello`
-
-Describe the command here
-
-```
-USAGE
-  $ bch-encrypt hello
-
-OPTIONS
-  -n, --name=name  name to print
-
-DESCRIPTION
-  ...
-  Extra documentation goes here
-```
-
-_See code: [src/commands/hello.js](https://github.com/christroutner/bch-encrypt/blob/v1.0.1/src/commands/hello.js)_
 
 ## `bch-encrypt help [COMMAND]`
 
