@@ -4,6 +4,8 @@
 Command Line Interface (CLI) for encrypting, decrypting, and sending messages
 over the BCH blockchain.
 
+- [YouTube demo of this app](https://www.youtube.com/watch?v=JMrmteYmbmM)
+
 ## Installation:
 - `git clone https://github.com/christroutner/bch-encrypt && cd bch-encrypt`
 - `npm install`
